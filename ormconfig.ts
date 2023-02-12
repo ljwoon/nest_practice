@@ -7,7 +7,7 @@ const config:MysqlConnectionOptions = {
     username: 'root',
     password: 'roottoor',
     database: 'test',
-    entities:[],
+    entities:[__dirname + '/../**/*.entity.js'],
     synchronize:true
 };
 

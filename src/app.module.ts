@@ -5,9 +5,10 @@ import config from '../ormconfig';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
+import { SearchModule } from './search/search.module';
 
 @Module({
-  imports: [UserModule, TypeOrmModule.forRoot(config)],
+  imports: [UserModule, TypeOrmModule.forRoot(config), SearchModule],
   controllers: [AppController],
   providers: [AppService],
 })
