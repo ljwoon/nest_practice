@@ -1,0 +1,19 @@
+[NestWinston] Info	2/13/2023, 12:05:35 AM [NestFactory] Starting Nest application... - {}
+[NestWinston] Info	2/13/2023, 12:05:35 AM [InstanceLoader] TypeOrmModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:35 AM [InstanceLoader] SearchModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:35 AM [InstanceLoader] ElasticsearchModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:35 AM [InstanceLoader] AppModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [InstanceLoader] TypeOrmCoreModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [InstanceLoader] TypeOrmModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [InstanceLoader] UserModule dependencies initialized - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RoutesResolver] AppController {/}: - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RouterExplorer] Mapped {/, GET} route - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RoutesResolver] UserController {/user}: - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RouterExplorer] Mapped {/user, GET} route - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RouterExplorer] Mapped {/user/:id, GET} route - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RouterExplorer] Mapped {/user, POST} route - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RouterExplorer] Mapped {/user/:id, PUT} route - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [RouterExplorer] Mapped {/user/:id, DELETE} route - {}
+[NestWinston] Info	2/13/2023, 12:05:36 AM [NestApplication] Nest application successfully started - {}
+[NestWinston] Warn	2/13/2023, 12:06:57 AM [PUT]/user/21(404) ::1 PostmanRuntime/7.30.1 - {}
+[NestWinston] Warn	2/13/2023, 12:07:16 AM [PUT]/use(404) ::1 PostmanRuntime/7.30.1 - {}
